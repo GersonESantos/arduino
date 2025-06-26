@@ -118,7 +118,7 @@ void loop() {
 void configuraControle() {
   int erroControle = ps2x.config_gamepad(13, 11, 10, 12, true, true);
   if (!erroControle) {
-    Serial.println("Controle encontrado");
+    Serial.println("Controle encontrado GersonES");
   } else {
     Serial.println("Controle não encontrado");
     while (erroControle) {
